@@ -1,0 +1,93 @@
+/* ExpenseTracker.css */
+
+.container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.balance {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.income,
+.expense {
+    width: 48%;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.income {
+    background: #d4edda;
+    color: #155724;
+}
+
+.expense {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.input-group input,
+.input-group button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.input-group button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.transactions ul {
+    list-style: none;
+    padding: 0;
+}
+
+.transactions li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-left: 4px solid;
+    background: white;
+    border-radius: 4px;
+}
+
+.transactions li.plus {
+    border-color: #28a745;
+}
+
+.transactions li.minus {
+    border-color: #dc3545;
+}
