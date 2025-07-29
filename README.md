@@ -25,5 +25,5 @@ A simple and clean **React-based Expense Tracker** that lets you add, track, and
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/expense-tracker.git
+git clone https://github.com/kousalya-dev/expense-tracker.git
 cd expense-tracker
